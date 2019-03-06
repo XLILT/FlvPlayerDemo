@@ -11,18 +11,9 @@ file(GLOB_RECURSE CUR_DIR_HEADERS ${CMAKE_CURRENT_SOURCE_DIR}/*.h)
 source_group("Header Files"
 	FILES ${CUR_DIR_HEADERS})
 
-# set(LOCAL_LIB_DIR "C:\\workspace\\local\\lib")
-# set(LOCAL_INC_DIR "C:\\workspace\\local\\include")
-
-# set(FFMPEG_INC_DIR "C:\\workspace\\c++\\ffmpeg\\ffmpeg-4.1.1-win64-dev\\include")
-# set(FFMPEG_LIB_DIR "C:\\workspace\\c++\\ffmpeg\\ffmpeg-4.1.1-win64-dev\\lib")
-
 set(FFMPEG_ROOT_DIR C:\\workspace\\c++\\ffmpeg\\FFmpeg-n4.1.1\\output)
 set(FFMPEG_INC_DIR ${FFMPEG_ROOT_DIR}/include)
 set(FFMPEG_LIB_DIR ${FFMPEG_ROOT_DIR}/bin)
-
-message(${FFMPEG_INC_DIR})
-message(${FFMPEG_LIB_DIR})
 
 set(SDL_ROOT_DIR C:\\workspace\\c++\\SDL\\SDL2-devel-2.0.9-VC\\SDL2-2.0.9)
 set(SDL_INC_DIR ${SDL_ROOT_DIR}/include)
